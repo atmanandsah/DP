@@ -24,4 +24,5 @@ int main(){
     int dp[100] = {0};
     int T = sizeof(coins)/sizeof(int);
     cout<<coinchange(n,coins,dp,T)<<endl;
+    cout<<endl;
 }
